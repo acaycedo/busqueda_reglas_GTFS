@@ -1,0 +1,61 @@
+{
+    "estaciones": [
+        {
+            "id": "portal_norte",
+            "nombre": "Portal Norte",
+            "latitud": 4.7580,
+            "longitud": -74.0450
+        },
+        {
+            "id": "calle_100",
+            "nombre": "Calle 100",
+            "latitud": 4.6840,
+            "longitud": -74.0560
+        },
+        {
+            "id": "calle_72",
+            "nombre": "Calle 72",
+            "latitud": 4.6580,
+            "longitud": -74.0590
+        },
+        {
+            "id": "calle_63",
+            "nombre": "Calle 63",
+            "latitud": 4.6510,
+            "longitud": -74.0650
+        },
+        {
+            "id": "calle_45",
+            "nombre": "Calle 45",
+            "latitud": 4.6350,
+            "longitud": -74.0670
+        }
+    ],
+
+    "conexiones": [
+        {
+            "origen": "portal_norte",
+            "destino": "calle_100",
+            "distancia": 2.5,
+            "tiempo": 5
+        },
+        {
+            "origen": "calle_100",
+            "destino": "calle_72",
+            "distancia": 2.8,
+            "tiempo": 6
+        },
+        {
+            "origen": "calle_72",
+            "destino": "calle_63",
+            "distancia": 1.5,
+            "tiempo": 4
+        },
+        {
+            "origen": "calle_63",
+            "destino": "calle_45",
+            "distancia": 2.0,
+            "tiempo": 5
+        }
+    ]
+}
