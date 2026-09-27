@@ -103,7 +103,7 @@ El sistema mostrará:
 ## 5. Estructura del proyecto
 
 ```text
-sistema_rutas/
+sistema_rutas_transmilenio/
 │
 ├── main.py
 ├── requirements.txt
